@@ -29,7 +29,7 @@
     "gitbook-plugin-livereload": "0.0.1",
     "gitbook-plugin-lunr": "1.2.0",
     "gitbook-plugin-search": "2.2.1",
-    "gitbook-plugin-sharing": "1.0.2",
+    "@gitbook-ng/gitbook-plugin-sharing": "^1.0.3",
     "gitbook-plugin-sitemap": "^1.2.0",
     "gitbook-plugin-theme-default": "1.0.7",
     "gitbook-plugin-theme-official": "^2.1.1",
