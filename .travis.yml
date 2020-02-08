@@ -5,7 +5,9 @@ os:
   - osx
 node_js:
   - "stable"
-  - "4.1"
+  - "10"
+  - "11"
+  - "12"
 before_install:
   - npm install svgexport -g
 after_success:
