@@ -1,6 +1,6 @@
 {
   "name": "@gitbook-ng/gitbook",
-  "version": "3.3.3",
+  "version": "3.3.4",
   "homepage": "https://github.com/gitbook-ng/gitbook",
   "description": "Library and cmd utility to generate GitBooks",
   "main": "lib/index.js",
@@ -80,6 +80,11 @@
     "type": "git",
     "url": "https://github.com/gitbook-ng/gitbook.git"
   },
+  "files": [
+    "bin",
+    "lib",
+    "README.md"
+  ],
   "bin": {
     "gitbook": "./bin/gitbook.js"
   },
