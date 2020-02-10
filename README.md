@@ -1,7 +1,10 @@
 # @gitbook-ng/gitbook
 
 ![@gitbook-ng/gitbook npm badge](https://img.shields.io/npm/v/@gitbook-ng/gitbook)
+
 [![Build Status](https://travis-ci.org/gitbook-ng/gitbook.svg?branch=master)](https://travis-ci.org/gitbook-ng/gitbook)
+
+[![codecov](https://codecov.io/gh/gitbook-ng/gitbook/branch/master/graph/badge.svg)](https://codecov.io/gh/gitbook-ng/gitbook)
 
 GitBook is a command line tool (and Node.js library) for building beautiful books using GitHub/Git and Markdown (or AsciiDoc).
 
