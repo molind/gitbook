@@ -10,5 +10,9 @@ node_js:
   - "12"
 before_install:
   - npm install svgexport -g
+  - npm install codecov -g
+script:
+  - npm run test-cov
+  - codecov
 after_success:
   - npm run lint
