@@ -35,6 +35,16 @@ npm run build
 npm run serve
 ```
 
+## Migrate from legacy gitbook-cli
+
+You need uninstall `gitbook-cli`:
+
+```bash
+npm uninstall gitbook-cli -g
+```
+
+Then follow **Get Started**.
+
 ## Notice
 
 This is a fork of *GitBookIO/GitBook* CLI due to *GitbookIO* deprecated *GitBook* CLI project.
