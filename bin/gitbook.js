@@ -86,7 +86,7 @@ program
       }
     });
 
-    command.exec(args, kwargs);
+    runPromise(command.exec(args, kwargs));
   });
 
 // Parse and fallback to help if no args
