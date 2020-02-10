@@ -45,6 +45,4 @@
 
 * [FAQ](faq.md)
 * [Examples](examples.md)
-* [Release notes](https://github.com/GitbookIO/gitbook/blob/master/CHANGES.md)
-
-
+* [Release notes](https://github.com/gitbook-ng/gitbook/blob/master/CHANGES.md)

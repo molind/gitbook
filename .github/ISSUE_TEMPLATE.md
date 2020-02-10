@@ -1,19 +1,17 @@
-Thank you for giving us your feedback! We listed some guidelines to help you:
+System info:
 
-If possible, open separate issues for each bug report. Avoid grouping bugs that are unrelated.
+- OS: <Your OS name and version, e.g. Mac OS X 10.15>
+- @gibook-ng/gitbook version: <Your installed version>, try to test the latest release before create this bug report.
 
-### What is the current behavior?
+## What is the current behavior
 
-If the current behavior is a bug, please provide the steps to reproduce. if possible, provide the GitBook version being used (`gitbook -V`) and the system infromations (OS and version).
+If the current behavior is a bug, please provide the steps to reproduce.
 
-### What is the expected behavior?
+### Reproduce steps
+
+- step 1: ...
+- step 2: ...
+
+## What is the expected behavior
 
 How do you think, or how would you like it should behave.
-
-#### For legacy.gitbook.com
-
-Provide, if possible, your username and the URL of the concerned book.
-
-----
-
-The GitBook Team

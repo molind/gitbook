@@ -2,19 +2,17 @@
 
 This page gathers common questions and answers concerning the GitBook format and toolchain.
 
-Questions about the legacy platform at legacy.gitbook.com and the Editor are gather into the [help.legacy.gitbook.com's FAQ](http://help.legacy.gitbook.com/faq.html).
-
 #### How can I host/publish my book?
 
-Books can easily be published and hosted on [legacy.gitbook.com](https://legacy.gitbook.com). But GitBook output can be hosted on any static file hosting solution.
+GitBook output can be hosted on any static file hosting solution. You need find your hosting solution.
 
 #### What can I use to edit my content?
 
-Any text editor should work! But we advise using the [GitBook Editor](https://legacy.gitbook.com/editor). [legacy.gitbook.com](https://legacy.gitbook.com) also provides a web version of this editor.
+Any text editor should work!
 
 ---
 
-#### Does GitBook supports RTL/bi-directional text ?
+#### Does GitBook supports RTL/bi-directional text?
 
 The GitBook format supports right to left, and bi-directional writing. To enable it, you either need to specify a language (ex: `ar`), or force GitBook to use RTL in your `book.json`:
 
@@ -34,7 +32,7 @@ You should always use paths and the `.md` extensions when linking to your files,
 
 #### Can I create a GitBook in a sub-directory of my repository?
 
-Yes, GitBooks can be created in [sub-directories](structure.md#subdirectory). legacy.gitbook.com and the CLI also looks by default in a serie of [folders](structure.md).
+Yes, GitBooks can be created in [sub-directories](structure.md#subdirectory).
 
 #### Does GitBook supports RTL languages?
 
@@ -52,4 +50,4 @@ Yes, both the website and ebook outputs can be customized using [themes](themes/
 
 #### Can I add interactive content (videos, etc)?
 
-GitBook is very [extensible](plugins/README.md). You can use [existing plugins](https://plugins.gitbook.com) or create your own!
+GitBook is very [extensible](plugins/README.md).

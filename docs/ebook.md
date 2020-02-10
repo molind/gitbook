@@ -22,10 +22,10 @@ $ gitbook mobi ./ ./mybook.mobi
 Download the [Calibre application](https://calibre-ebook.com/download). After moving the `calibre.app` to your Applications folder create a symbolic link to the ebook-convert tool:
 
 ```
-$ sudo ln -s ~/Applications/calibre.app/Contents/MacOS/ebook-convert /usr/bin
+$ sudo ln -s ~/Applications/calibre.app/Contents/MacOS/ebook-convert /usr/local/bin
 ```
 
-You can replace `/usr/bin` with any directory that is in your $PATH.
+You can replace `/usr/local/bin` with any directory that is in your $PATH.
 
 ### Cover
 
