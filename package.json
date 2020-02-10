@@ -76,8 +76,8 @@
   "scripts": {
     "lint": "eslint .",
     "test": "mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000",
-    "test-cov": "nyc --reporter=lcovonly --exclude='testing/**' --exclude='**/__tests__/**' mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000",
-    "test-cov-html": "nyc --reporter=html --exclude='testing/**' --exclude='**/__tests__/**' mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000"
+    "test-cov": "nyc --reporter=lcovonly --exclude='book.js' --exclude='testing/**' --exclude='**/__tests__/**' mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000",
+    "test-cov-html": "nyc --reporter=html --exclude='book.js' --exclude='testing/**' --exclude='**/__tests__/**' mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000"
   },
   "repository": {
     "type": "git",
