@@ -4,9 +4,7 @@ LAST_COMMIT=$(git rev-parse --short HEAD)
 BUILD_DIR=_book
 DEPLOY_DIR=.deploy_git
 
-if [ "${REPO_TOKEN}" = "" ]; then
-  echo "No REPO_TOKEN, exit"
-  exit 0
+if [ "${REPO_TOKEN}" = "" ]; then echo "No REPO_TOKEN, exit" exit 0
 fi
 
 setup_git() {
@@ -19,6 +17,12 @@ setup_git() {
 }
 
 commit_website_files() {
+    REMOTE_VERSION=$(cat $DEPLOY_DIR/version.txt)
+    if [ "$REMOTE_VERSION" = "$LAST_COMMIT" ]; then
+        echo "No build is required since there is no change"
+        exit 0
+    fi
+
     npm run build
     echo $LAST_COMMIT > $BUILD_DIR/version.txt
 
