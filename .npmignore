@@ -1,0 +1,14 @@
+**/__tests__/**
+/_book/
+/docs/
+/sample/
+/coverage/
+/.nyc-output/
+.*
+*.png
+*.tgz
+*.log
+*.txt
+appveyor.yml
+cloc.sh
+AUTHORS.md 
