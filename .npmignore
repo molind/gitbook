@@ -1,4 +1,5 @@
 **/__tests__/**
+/testing/**
 /_book/
 /docs/
 /sample/
@@ -12,3 +13,4 @@
 appveyor.yml
 cloc.sh
 AUTHORS.md 
+book.js
