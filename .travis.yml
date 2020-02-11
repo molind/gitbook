@@ -1,18 +1,22 @@
 sudo: false
 language: node_js
 os:
-  - linux
-  - osx
+- linux
+- osx
 node_js:
-  - "stable"
-  - "10"
-  - "11"
-  - "12"
+- stable
+- '10'
+- '11'
+- '12'
 before_install:
-  - npm install svgexport -g
-  - npm install codecov -g
+- npm install svgexport -g
+- npm install codecov -g
 script:
-  - npm run test-cov
-  - codecov
+- npm run test-cov
+- codecov
 after_success:
-  - npm run lint
+- npm run lint
+- ./.travis/deploy_gh_pages.sh
+env:
+  global:
+    secure: o2h6ojavQIfjUwAA01t0POKcibhG7lLlLFYMh5zp1JtDLdONhZi2qm228kPegIK6nt20zNrCtagAYa12SG9ZA6F0SfCrpS3Rj+3bsm1so/6goZnEdvF+V55e6/bhmFi6HNYBpgaj2ZYSBawdMuAwJ0VmV8DGqce59mniSjYC6zpweC8f3y7LNMLa3Op6F47n6TGuEFarHeeA0HlxQ4wvfgs02Lui9tt6GY5ob5xQzdxJ6iKI9ecWNXFHTiB/qObkG7EvGNJqMT3UG/kA+5APX8t1SnANk4CAGkqhjuBOKfIJSKuyDdaEOTSAb2VsRquuXZvg9S3woYf4scR5Rz3axM1Loo/IRc/t1njkPqmS/0wWNf5dvlQHp5QcCHamV4Zys5oeKcACB7CMx1ofMBJ86BktX2Mqb2elPeH4duCTxtx85gnrwzNm5ZccDTtzt+dWK1zxIiaKQ3T0U3JzbuZmFs0piKQvNz8A4orUs9eOgLdruIIx+ur0BRk6wFbz6YBRxYONfIhKK82YR6+PXvH12uwA7J/VZoRJOX1Wy+wNnkEvCaqZA5N1fyKQ2D4ShBW71jedQhS0xprmvkUz+4bpSe/hvH6pG6kk7WUAPe7CXJbVg8fg9GC3fRGKioQOSEFq2+ScC4UjrowmEbVYLft3ftvEPjZhA9lEbud6Y+QE84w=

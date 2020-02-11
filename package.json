@@ -9,6 +9,7 @@
     "@gitbook-ng/fresh-require": "^1.0.4",
     "@gitbook-ng/gitbook-plugin-sharing": "^1.0.3",
     "@gitbook-ng/gitbook-plugin-sitemap": "^1.3.2",
+    "@gitbook-ng/gitbook-plugin-theme-default": "^1.0.8",
     "@gitbook-ng/rmdir": "1.2.1",
     "bash-color": "0.0.4",
     "cheerio": "0.20.0",
@@ -33,8 +34,6 @@
     "gitbook-plugin-livereload": "0.0.1",
     "gitbook-plugin-lunr": "1.2.0",
     "gitbook-plugin-search": "2.2.1",
-    "gitbook-plugin-theme-default": "1.0.7",
-    "gitbook-plugin-theme-official": "^2.1.1",
     "github-slugid": "1.0.1",
     "graceful-fs": "4.2.3",
     "i18n-t": "1.0.1",
@@ -78,17 +77,14 @@
     "lint": "eslint .",
     "test": "mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000",
     "test-cov": "nyc --reporter=lcovonly --exclude='book.js' --exclude='testing/**' --exclude='**/__tests__/**' mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000",
-    "test-cov-html": "nyc --reporter=html --exclude='book.js' --exclude='testing/**' --exclude='**/__tests__/**' mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000"
+    "test-cov-html": "nyc --reporter=html --exclude='book.js' --exclude='testing/**' --exclude='**/__tests__/**' mocha ./testing/setup.js \"./lib/**/*/__tests__/*.js\" --bail --reporter=list --timeout=10000",
+    "serve": "./bin/gitbook.js serve",
+    "build": "./bin/gitbook.js build"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/gitbook-ng/gitbook.git"
   },
-  "files": [
-    "bin",
-    "lib",
-    "README.md"
-  ],
   "bin": {
     "gitbook": "./bin/gitbook.js"
   },
