@@ -1,6 +1,6 @@
-# GitBook Toolchain Documentation
+# @gitbook-ng/gitbook
 
-This document aims to be a comprehensive guide to the @gitbook-ng/gitbook command line tool, version **3.3.4**.
+This document aims to be a comprehensive guide to the @gitbook-ng/gitbook command line tool, version **3.3.5**.
 
 ## What is `gitbook`
 

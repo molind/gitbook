@@ -1,11 +1,11 @@
 # Summary
 
-### Getting Started
+## Getting Started
 
 * [About this documentation](README.md)
 * [Installation and Setup](setup.md)
 
-### Your Content
+## Your Content
 
 * [Directory structure](structure.md)
 * [Pages and Summary](pages.md)
@@ -26,7 +26,7 @@
 * [AsciiDoc](syntax/asciidoc.md)
 * [eBook and PDF](ebook.md)
 
-### Customization
+## Customization
 
 * [Templating](templating/README.md)
     * [Content References](templating/conrefs.md)
@@ -45,4 +45,4 @@
 
 * [FAQ](faq.md)
 * [Examples](examples.md)
-* [Release notes](https://github.com/gitbook-ng/gitbook/blob/master/CHANGES.md)
+* [Release notes](releases.md)
