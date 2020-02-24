@@ -9,7 +9,7 @@ module.exports = {
     gitbook: '3.3.4',
 
     // Use the "official" theme
-    plugins: ['-sharing', '-fontsettings', 'sitemap'],
+    plugins: ['-sharing', '-fontsettings', 'sitemap', 'ga'],
 
     variables: {
         version: pkg.version
@@ -22,6 +22,10 @@ module.exports = {
 
         'theme-default': {
             showLevel: false
+        },
+
+        ga: {
+            token: 'UA-159024016-1'
         }
     }
 };
