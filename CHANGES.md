@@ -3,6 +3,10 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## 3.3.6
+
+- Fix missing models/book.js issue.
+
 ## 3.3.5
 
 - Upgrade gitbook-plugin-theme-default to @gitbook-ng/gitbook-plugin-theme-default@1.0.8 

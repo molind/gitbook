@@ -13,4 +13,5 @@
 appveyor.yml
 cloc.sh
 AUTHORS.md 
-book.js
+/book.js
+/tmp
